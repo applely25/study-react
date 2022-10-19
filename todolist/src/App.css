@@ -1,0 +1,87 @@
+/* Home Page Container */
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  /* ToDo App Input Box */
+  .inputbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .inputbox-inp {
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid #f1f3f5;
+    padding: 10px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .inputbox-inp:focus {
+    outline: none;
+  }
+  .inputbox-add-btn {
+    border: none;
+    border-radius: 0;
+    background-color: #d0ebff;
+    color: #1c7ed6;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+  }
+  
+  /* ToDo Item List */
+  .list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .list-tit {
+    font-weight: bold;
+    margin: 0;
+  }
+  .list-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  /* ToDo Item */
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 36px;
+  }
+  .item:last-child {
+    margin-bottom: 0;
+  }
+  .item-checkbox {
+    margin-right: 10px;
+  }
+  .item-ctx {
+    flex: 1;
+  }
+  .item-edit-btn,
+  .item-delete-btn {
+    border: none;
+    border-radius: 0;
+    height: 36px;
+    width: 36px;
+    background-color: inherit;
+  }
+  .item-edit-btn:hover,
+  .item-delete-btn:hover {
+    cursor: pointer;
+    background-color: #d0ebff;
+  }
+  .item-edit-btn {
+    margin-right: 3px;
+  }
