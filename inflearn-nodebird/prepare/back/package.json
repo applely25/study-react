@@ -5,7 +5,10 @@
   "author": "kimgyuha",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.8",
+    "sequelize-cli": "^6.5.2"
   },
   "scripts": {
     "start": "node app.js"
